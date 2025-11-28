@@ -6,8 +6,9 @@ $userDatabase = [
     "101" => [
         "username" => "keshav_12",
         "device_id" => "ABCD1234XYZ",
-        "login_time" => "10:45 AM",
-        "login_date" => "2025-11-28",
+       "login_time" => date("h:i A"),        
+        "login_date" => date("Y-m-d"),         
+
         "country_code" => "IN",
         "user" => [
             "age" => 23,
