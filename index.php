@@ -1,6 +1,7 @@
 <?php
 header("Content-Type: application/json");
 header("Access-Control-Allow-Origin: *");
+date_default_timezone_set('Asia/Kolkata');
 
 $userDatabase = [
     "101" => [
